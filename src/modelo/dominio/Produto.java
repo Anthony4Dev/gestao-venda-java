@@ -11,7 +11,7 @@ public class Produto {
     private Integer quantidade;
     private Categoria categoria;
     private Usuario usuario;
-    private LocalDateTime data_hora_criacao;
+    private LocalDateTime data_Hora_Criacao;
 
     public Long getId() {
         return id;
@@ -69,11 +69,11 @@ public class Produto {
         this.usuario = usuario;
     }
 
-    public LocalDateTime getData_hora_criacao() {
-        return data_hora_criacao;
+    public LocalDateTime getdata_Hora_Criacao() {
+        return data_Hora_Criacao;
     }
 
-    public void setData_hora_criacao(LocalDateTime data_hora_criacao) {
-        this.data_hora_criacao = data_hora_criacao;
+    public void setdata_Hora_Criacao(LocalDateTime data_Hora_Criacao) {
+        this.data_Hora_Criacao = data_Hora_Criacao;
     }
 }

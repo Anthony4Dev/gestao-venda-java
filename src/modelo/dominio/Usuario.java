@@ -13,21 +13,21 @@ public class Usuario {
 
     private boolean estado;
 
-    private LocalDateTime data_hora_criacao;
+    private LocalDateTime data_Hora_Criacao;
     private LocalDateTime ultimoLogin;
 
     public Usuario(){
         this.estado = true;
     }
 
-    public Usuario (Long id, String nome, String senha, String usuario, Perfil perfil, boolean estado, LocalDateTime data_hora_criacao, LocalDateTime ultimoLogin){
+    public Usuario (Long id, String nome, String senha, String usuario, Perfil perfil, boolean estado, LocalDateTime data_Hora_Criacao, LocalDateTime ultimoLogin){
         this.id = id;
         this.nome = nome;
         this.senha = senha;
         this.usuario = usuario;
         this.perfil = perfil;
         this.estado = true;
-        this.data_hora_criacao = data_hora_criacao;
+        this.data_Hora_Criacao = data_Hora_Criacao;
         this.ultimoLogin = ultimoLogin;
     }
 
@@ -77,12 +77,12 @@ public class Usuario {
         this.estado = estado;
     }
 
-    public LocalDateTime getData_hora_criacao() {
-        return data_hora_criacao;
+    public LocalDateTime getdata_Hora_Criacao() {
+        return data_Hora_Criacao;
     }
 
-    public void setData_hora_criacao(LocalDateTime data_hora_criacao) {
-        this.data_hora_criacao = data_hora_criacao;
+    public void setdata_Hora_Criacao(LocalDateTime data_Hora_Criacao) {
+        this.data_Hora_Criacao = data_Hora_Criacao;
     }
 
     public LocalDateTime getUltimoLogin() {
