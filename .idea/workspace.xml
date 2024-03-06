@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd023d1-43f2-482f-85f3-1227bdff3502" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modelo/dominio/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/dominio/categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/dominio/produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/dominio/usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/dominio/usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/dominio/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/dominio/categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/dominio/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/dominio/produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/dominio/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/dominio/usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/dominio/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

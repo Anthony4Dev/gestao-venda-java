@@ -1,14 +1,14 @@
 package modelo.dominio;
 
-public class categoria {
+public class Categoria {
     private Long id;
     private String nome;
     private String descricao;
 
-    public categoria() {
+    public Categoria() {
     }
 
-    public categoria(Long id, String nome, String descricao){
+    public Categoria(Long id, String nome, String descricao){
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;

@@ -3,7 +3,7 @@ package modelo.dominio;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-public class produto {
+public class Produto {
     private Long id;
     private String nome;
     private String descricao;

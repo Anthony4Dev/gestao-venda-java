@@ -3,7 +3,7 @@ package modelo.dominio;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-public class usuario {
+public class Usuario {
 
     private Long id;
     private String nome;
@@ -16,11 +16,11 @@ public class usuario {
     private LocalDateTime data_hora_criacao;
     private LocalDateTime ultimoLogin;
 
-    public usuario(){
+    public Usuario(){
         this.estado = true;
     }
 
-    public usuario (Long id, String nome, String senha, String usuario, Perfil perfil, boolean estado, LocalDateTime data_hora_criacao, LocalDateTime ultimoLogin){
+    public Usuario (Long id, String nome, String senha, String usuario, Perfil perfil, boolean estado, LocalDateTime data_hora_criacao, LocalDateTime ultimoLogin){
         this.id = id;
         this.nome = nome;
         this.senha = senha;
@@ -53,7 +53,7 @@ public class usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-    public String getUsuario() {
+    public String isUsuario() {
         return usuario;
     }
 
@@ -96,8 +96,8 @@ public class usuario {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof usuario)) return false;
-        usuario usuario = (usuario) o;
+        if (!(o instanceof Usuario)) return false;
+        Usuario usuario = (Usuario) o;
         return Objects.equals(id, usuario.id);
     }
 
