@@ -17,7 +17,7 @@ public class usuario {
     private LocalDateTime ultimoLogin;
 
     public usuario(){
-
+        this.estado = true;
     }
 
     public usuario (Long id, String nome, String senha, String usuario, Perfil perfil, boolean estado, LocalDateTime data_hora_criacao, LocalDateTime ultimoLogin){
@@ -26,7 +26,7 @@ public class usuario {
         this.senha = senha;
         this.usuario = usuario;
         this.perfil = perfil;
-        this.estado = estado;
+        this.estado = true;
         this.data_hora_criacao = data_hora_criacao;
         this.ultimoLogin = ultimoLogin;
     }
@@ -69,7 +69,7 @@ public class usuario {
         this.perfil = perfil;
     }
 
-    public boolean isEstado() {
+    public boolean getEstado() {
         return estado;
     }
 
@@ -104,5 +104,13 @@ public class usuario {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    public void reset(){
+        this.estado = true;
+    }
+
+    public void mudarEstado(){
+        this.estado = !this.estado;
     }
 }
